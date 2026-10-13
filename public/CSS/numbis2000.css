@@ -1,0 +1,76 @@
+body { padding-top: 56px;
+background: url(../IMAGENES/backazulbrisa.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+
+h1, h2 { font-family: 'Alfa Slab One', cursive; text-shadow: 4px 4px 2px rgba(157,153,241,0.6); }
+
+.hero {
+
+height: 10vh;
+min-height: 400px;
+color:rgb(37, 40, 43);
+}
+
+
+footer {
+padding-top: 3rem;
+    margin-bottom: 0;
+}
+  
+.lista-novedades {
+    margin: 0;
+    padding: 0;
+    list-style: none;       
+}
+
+.lista-novedades li {
+    margin: 4px 0;
+}
+
+.lista-novedades li a {
+    background-color:rgba(255, 255, 255, 0.85);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #6c757d;
+    transition: all .2s ease-in-out;  
+    display: block;
+}
+ 
+
+.lista-novedades li a:hover {
+    color: #0d6efd;
+    background-color: #e7f1ff;
+}
+ 
+
+.lista-novedades li a img {
+    width: 120px;
+    height: 50px;
+    object-fit: cover;
+    filter: grayscale();               
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+ 
+
+.lista-novedades li a:hover img {
+    filter: none;                     
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+
+.testimonios {
+   
+    padding-bottom: 4rem;
+}
+
+.testimonio {
+    text-align: left;
+    padding: 50px 20px;
+}
+.scroll_section {
+    scroll-margin-top: 200px;
+}
